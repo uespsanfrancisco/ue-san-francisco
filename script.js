@@ -61,5 +61,5 @@ document.getElementById("contactForm").addEventListener("submit", event => {
       "Formulario de demostración: configura CORREO_INSTITUCIONAL en script.js para activar el envío por correo.";
     return;
   }
-  window.location.href = `mailto:${CORREO_INSTITUCIONAL}?subject=${subject}&body=${body}`;
+  window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CORREO_INSTITUCIONAL)}&su=${subject}&body=${body}`;
 });
