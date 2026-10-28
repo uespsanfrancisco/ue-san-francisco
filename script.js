@@ -1,5 +1,5 @@
 // Personaliza este archivo antes de publicar la web.
-const CORREO_INSTITUCIONAL = ""; // Ejemplo: "secretaria@tuinstitucion.edu.ec"
+const CORREO_INSTITUCIONAL = "iesanfranciscoim@gmail.com"; // Ejemplo: "secretaria@tuinstitucion.edu.ec"
 
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav");
